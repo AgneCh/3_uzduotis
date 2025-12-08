@@ -1,0 +1,11 @@
+.vs/
+Debug/
+Release/
+x64/
+*.sdf
+*.pdb
+*.idb
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+
