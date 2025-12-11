@@ -374,9 +374,7 @@ int checkFileAvailability(std::string file)
 void stripWhiteSpace(std::string &line, std::vector<std::string> &result)
 {
     result.clear();
-#ifndef USE_LIST
     result.reserve(8);
-#endif
 
     const size_t len = line.size();
     size_t currPosition = 0;
@@ -471,9 +469,7 @@ void loadStudentsFromFile(StudentContainer &students, std::string fileName)
     std::getline(file, curLine); // skip header
     if (numOfLines > 0)
         --numOfLines;
-#ifndef USE_LIST
     students.reserve(numOfLines);
-#endif
 
     std::vector<std::string> row;
 

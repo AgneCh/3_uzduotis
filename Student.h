@@ -72,16 +72,8 @@ public:
     }
 };
 
-#ifdef USE_LIST
-using StudentContainer = std::list<Student>;
-inline const char *getContainerName()
-{
-    return "std::list<Student>";
-}
-#else
 using StudentContainer = std::vector<Student>;
-inline const char *getContainerName()
+inline const char* getContainerName()
 {
     return "std::vector<Student>";
 }
-#endif

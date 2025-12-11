@@ -74,27 +74,20 @@ int main()
             std::string path = "Data/" + fileName;
             loadStudentsFromFile(students, path);
 
-#ifndef USE_LIST
             students.shrink_to_fit();
-#endif
 
             std::cout << "\n";
             std::cout << "Student data is uploaded to the system." << "\n";
             std::cout << "\n";
-#ifdef USE_LIST
-            students.sort(compareStudentNames);
 
-#else
             sort(students.begin(), students.end(), compareStudentNames);
-#endif
 
             std::cout << "\n";
             for (auto &s : students)
             {
                 s = calcFinalGrade(s);
             }
-//            printStudents(students, "b");
-//            std::cout << "\n";
+
         }
         else if (menuChoice == 4) // Generate random student file
         {
@@ -152,9 +145,8 @@ int main()
             std::string path = "Data/" + fileName;
             loadStudentsFromFile(studentData, path);
 
-#ifndef USE_LIST
             studentData.shrink_to_fit();
-#endif
+
             std::cout << "\n";
             std::cout << "Student data is uploaded to the system." << "\n";
             std::cout << "\n";
@@ -164,16 +156,7 @@ int main()
                 s = calcFinalGrade(s);
             }
 
-            int choice;
-            std::cout << "Choose categorization stategy (1, 2 or 3): ";
-            std::cin >> choice;
-
-            if (choice == 1)
-                categorizeStudents_1(studentData, strugglers, highAchievers);
-            else if (choice == 2)
-                categorizeStudents_2(studentData, strugglers, highAchievers);
-            else
-                categorizeStudents_3(studentData, strugglers, highAchievers);
+            categorizeStudents_2(studentData, strugglers, highAchievers);
 
             std::cout << "To sort categorized files by name type 'n' or 'g' to sort by grade: " << "\n";
 
@@ -185,28 +168,17 @@ int main()
                 if (sortChoice == "n")
 
                 {
-#ifdef USE_LIST
-                    strugglers.sort(compareStudentNames);
-                    highAchievers.sort(compareStudentNames);
 
-#else
                     sort(strugglers.begin(), strugglers.end(), compareStudentNames);
-
                     sort(highAchievers.begin(), highAchievers.end(), compareStudentNames);
-#endif
                     break;
                 }
 
                 else if (sortChoice == "g")
 
                 {
-#ifdef USE_LIST
-                    strugglers.sort(compareStudentGrades);
-                    highAchievers.sort(compareStudentGrades);
-#else
                     sort(strugglers.begin(), strugglers.end(), compareStudentGrades);
                     sort(highAchievers.begin(), highAchievers.end(), compareStudentGrades);
-#endif
                     break;
                 }
 
