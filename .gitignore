@@ -3,6 +3,7 @@ Debug/
 Release/
 x64/
 *.sdf
+*.txt
 *.pdb
 *.idb
 *.VC.db

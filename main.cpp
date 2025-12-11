@@ -10,14 +10,6 @@
 
 int main()
 {
-#ifdef USE_VECTOR
-    std::cout << ">>> Using std::vector container <<<\n";
-#elif defined(USE_LIST)
-    std::cout << ">>> Using std::list container <<<\n";
-#else
-    std::cout << ">>> No container macro defined, using std::vector as default <<<\n";
-#endif
-
     using namespace std::chrono;
     std::string mode;
     StudentContainer students;
@@ -72,14 +64,15 @@ int main()
             while (true)
             {
                 std::cin >> fileName;
-                if (checkFileAvailability(fileName) == 0)
+                std::string path = "Data/" + fileName;
+                if (checkFileAvailability(path) == 0)
                 {
                     break;
                 }
                 std::cout << "Enter correct file name!" << "\n";
             }
-
-            loadStudentsFromFile(students, fileName);
+            std::string path = "Data/" + fileName;
+            loadStudentsFromFile(students, path);
 
 #ifndef USE_LIST
             students.shrink_to_fit();
@@ -100,8 +93,8 @@ int main()
             {
                 s = calcFinalGrade(s);
             }
-            printStudents(students, "b");
-            std::cout << "\n";
+//            printStudents(students, "b");
+//            std::cout << "\n";
         }
         else if (menuChoice == 4) // Generate random student file
         {
@@ -149,14 +142,15 @@ int main()
             while (true)
             {
                 std::cin >> fileName;
-                if (checkFileAvailability(fileName) == 0)
+                std::string path = "Data/" + fileName;
+                if (checkFileAvailability(path) == 0)
                 {
                     break;
                 }
                 std::cout << "Enter correct file name!" << "\n";
             }
-
-            loadStudentsFromFile(studentData, fileName);
+            std::string path = "Data/" + fileName;
+            loadStudentsFromFile(studentData, path);
 
 #ifndef USE_LIST
             studentData.shrink_to_fit();
@@ -219,8 +213,8 @@ int main()
                 std::cout << "Invalid choice!\n";
             }
 
-            createStudentFile(strugglers, "strugglers.txt");
-            createStudentFile(highAchievers, "highAchievers.txt");
+            createStudentFile(strugglers, "Data/strugglers.txt");
+            createStudentFile(highAchievers, "Data/highAchievers.txt");
         }
         else
         {

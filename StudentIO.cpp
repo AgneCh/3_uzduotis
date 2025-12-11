@@ -11,6 +11,9 @@
 #include <cctype>
 #include <iterator>
 #include <sstream>
+#include <filesystem>
+namespace fs = std::filesystem;
+
 
 std::istream &operator>>(std::istream &in, Student &s)
 {
@@ -421,7 +424,11 @@ Student processStudentRow(std::vector<std::string> studentRow)
 
 void generateRandomStudentFile(std::string fileName, int numOfLines)
 {
-    std::ofstream f(fileName);
+    // ensure Data folder exists
+    fs::create_directories("Data");
+
+    std::string path = "Data/" + fileName;
+    std::ofstream f(path);
     if (!f.is_open())
     {
         std::cout << "Error creating file!" << fileName << std::endl;
