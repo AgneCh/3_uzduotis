@@ -43,7 +43,7 @@ Toliau, galima pasirinkti įvesti duomenis paeiliui (***1***), kur programa pati
 
 Pasirinkus ***1. `Step-by-step entry`***, duomenys turi būti suvesti tokiu formatu:  
 ![input1.1](./screenshots/input1.1.JPG)  
-Balus reikia įvesti po vieną. Galima pasirinkti ir atsitiktinai sugeneruoti balą parašius '***r***'.  
+Balus reikia įvesti po vieną. Galima atsitiktinai sugeneruoti balą parašius '***r***'.  
 
 Pasirinkus ***2. `Quick entry`***, duomenys turi būti suvesti tokiu formatu:  
 ![input1.2](./screenshots/input1.2.JPG)  
@@ -84,7 +84,7 @@ Programa leidžia studentus surūšiuoti i dvi kategorijas: "vargšiukus" (strug
 Įveskite ***skaičių 5*** ir pateikite failo, iš kurio nuskaityti duomenis, pavadinimą (pvz. Student1000.txt).  
   ![categorize1](./screenshots/categorize1.JPG)  
   
-Pasirinkite, ar skaičiuoti galutinį balą su vidurkiu '***m***', mediana '***md***', ar gauti abu rezultatus '***b***'.    
+Pasirinkite kaip papildomai surūšiuoti sąrašą: pagal vardą '***n***' arba balus '***g***'.     
 ![categorize2](./screenshots/categorize2.JPG)  
 
 Sėkmingai surušiavus duomenis, programa praneša apie išvestus failus.  
