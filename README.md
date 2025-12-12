@@ -14,7 +14,7 @@ Paspauskite „Install“.
 Pasirinkite iš karto paleisti programą arba tieisog uždarykite langą.  
 ![paleist faila is karto](./screenshots/runProgram.JPG)  
 
-Pasirinkus iš karto paleisit programą, jums atsidarys programos meniu.
+Pasirinkus iš karto paleisit programą, jums atsidarys programos meniu.  
 ![programo meniu](./screenshots/program.JPG)  
 
 Darbalaukyje turėtų atsirasti nuoroda į programą. Taip pat ją galima paleisti iš „Start“ meniu.  
@@ -24,48 +24,48 @@ Norint pašalinti programą, tai galite padaryti per „Valdymo skydą“ → �
 ![Valdymo skydas](./screenshots/controlPanell.JPG)  
 
 Programų sąraše radę programą, ją galite pašalinti paspaudę dešinįjį kompiuterio pelės klavišą ir pasirinkę „Pašalinti“.  
-![Pašalinti](./screenshots/delete.JPG)
-
+![Pašalinti](./screenshots/delete.JPG)  
+  
 
 
 # Programos naudojimosi instrukcija
 
 Paleidus programą rodomas pasirikimų meniu:  
-![meniu](./screenshots/progMeniu.JPG)
+![meniu](./screenshots/progMeniu.JPG)  
 
-## Studentų duomenų įvestis
+## Studentų duomenų įvestis  
 
 ### Duomenų įvedimas rankiniu būdu
-Įveskite ***skaičių 1***, kad suvesti studentų duomenis ***rankiniu būdų***.
+Įveskite ***skaičių 1***, kad suvesti studentų duomenis ***rankiniu būdų***.  
 ![input1](./screenshots/input1.JPG)  
   
-Toliau, galima pasirinkti įvesti duomenis paeiliui (***1***), kur programa pati paprašo studento vardo, pavardės ir t.t., arba duomenis surašyti į vieną eilutę (***2***).
+Toliau, galima pasirinkti įvesti duomenis paeiliui (***1***), kur programa pati paprašo studento vardo, pavardės ir t.t., arba duomenis surašyti į vieną eilutę (***2***).  
 
 Pasirinkus ***1. `Step-by-step entry`***, duomenys turi būti suvesti tokiu formatu:  
-![input1.1](./screenshots/input1.1.JPG)
+![input1.1](./screenshots/input1.1.JPG)  
 Balus reikia įvesti po vieną. Galima pasirinkti ir atsitiktinai sugeneruoti balą parašius '***r***'.  
 
 Pasirinkus ***2. `Quick entry`***, duomenys turi būti suvesti tokiu formatu:  
-![input1.2](./screenshots/input1.2.JPG)
+![input1.2](./screenshots/input1.2.JPG)  
 
 Galutinė išvestis atodo taip:  
-![output1.1](./screenshots/output1.1.JPG)
+![output1.1](./screenshots/output1.1.JPG)  
 
 
 ### Duomenų įvedimas iš failo
-Įveskite ***skaičių 3***, kad duomenis programa nuskaitytų iš failo. 
-Įveskite pilną failo pavadinimą pvz.: Student10000.txt   
-![input2](./screenshots/input2.png)  
+Įveskite ***skaičių 3***, kad duomenis programa nuskaitytų iš failo.  
+Įveskite pilną failo pavadinimą pvz.: Student1000.txt   
+![input2](./screenshots/input2.JPG)  
 
 Programa atspausdina lentelę su duomenimis iš failo:  
-![output2](./screenshots/output2.png)
+![output2](./screenshots/output2.JPG)  
   
 
 ### Atsitiktinių duomenų sąrašo generavimas
 Programa leidžia sugeneruoti atsitiktinius duomenis ir su jais dirbti.  
 Įveskite ***skaičių 4*** ir kiek eilučių norite, kad programa sugeneruotų.  
 Programa praneš, jei failas sėkmingai sugeneruotas.  
-![generateStudFile](./screenshots/generateRandomStudFile.png)
+![generateStudFile](./screenshots/generateRandomStudFile.JPG)  
 
 
 ## Darbas su duomenimis
@@ -73,26 +73,26 @@ Programa praneš, jei failas sėkmingai sugeneruotas.
 ### Apskaičiuoti galutinį balą
 Įveskite ***skaičių 2***, kad apskaičiuoti galutinį balą.  
 Pasirinkite, ar skaičiuoti galutinį balą su vidurkiu '***m***', mediana '***md***', ar gauti abu rezultatus '***b***'.  
-![calFinalGrade1](./screenshots/calFinalGrade1.png)  
+![calFinalGrade1](./screenshots/calFinalGrade1.JPG)  
 
 Išvestis gaunama ekrane:  
-![calFinalGrade2](./screenshots/calFinalGrade2.png)  
+![calFinalGrade2](./screenshots/calFinalGrade2.JPG)  
 
 
 ### Surušiuoti studentus į dvi kategorijas
 Programa leidžia studentus surūšiuoti i dvi kategorijas: "vargšiukus" (strugglers) ir "kietiakus" (high achievers).  
-Įveskite ***skaičių 5*** ir pateikite failo, iš kurio nuskaityti duomenis, pavadinimą (pvz. Student10.txt).  
-  ![categorize1](./screenshots/categorize1.png)  
+Įveskite ***skaičių 5*** ir pateikite failo, iš kurio nuskaityti duomenis, pavadinimą (pvz. Student1000.txt).  
+  ![categorize1](./screenshots/categorize1.JPG)  
   
-Pasirinkite rūšiavimo strategiją (1 - lėčiau veikentis rūšiavimas, 2 ir 3 - spartestis rūšiavimas). Taip pat programa prašo pasirinkti, kad sarašai būtų papildomai surūšiuoti pagal vardą '***n***' arba balus '***g***'.  
-![categorize2](./screenshots/categorize2.png)  
+Pasirinkite, ar skaičiuoti galutinį balą su vidurkiu '***m***', mediana '***md***', ar gauti abu rezultatus '***b***'.    
+![categorize2](./screenshots/categorize2.JPG)  
 
 Sėkmingai surušiavus duomenis, programa praneša apie išvestus failus.  
-![categorize3](./screenshots/categorize3.png)
+![categorize3](./screenshots/categorize3.JPG)
 
 Išvestis failuose:  
 ***strugglers.txt***  
-![categorize4](./screenshots/categorize4.png)
+![categorize4](./screenshots/categorize4.JPG)
   
 ***highAchievers.txt***  
 ![categorize5](./screenshots/categorize5.png)  
