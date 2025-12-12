@@ -139,6 +139,9 @@
     <ClInclude Include="StudentIO.h" />
     <ClInclude Include="StudentSort.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
