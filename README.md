@@ -6,25 +6,25 @@ Paspaudus ant *Student_grading_setup.exe* failo, pasirinkite, kur išsaugoti pro
 ![Diegimo vieta](./screenshots/destinationLocation.JPG)  
 
 Pasirinkite sukurti darbalaukio nuorodą į programą. Paspauskite „Next“.  
-![Darbalaukio nuoroda](shortcut.JPG)  
+![Darbalaukio nuoroda](./screenshots/shortcut.JPG)  
 
 Paspauskite „Install“.  
-![Diegti](install.JPG)  
+![Diegti](./screenshots/install.JPG)  
 
 Pasirinkite iš karto paleisti programą arba tieisog uždarykite langą.  
-![paleist faila is karto](runProgram.JPG)  
+![paleist faila is karto](./screenshots/runProgram.JPG)  
 
 Pasirinkus iš karto paleisit programą, jums atsidarys programos meniu.
-![programo meniu](program.JPG)  
+![programo meniu](./screenshots/program.JPG)  
 
 Darbalaukyje turėtų atsirasti nuoroda į programą. Taip pat ją galima paleisti iš „Start“ meniu.  
-![Darbalaukio nuoroda](shortcutIcon.JPG)  
+![Darbalaukio nuoroda](./screenshots/shortcutIcon.JPG)  
 
 Norint pašalinti programą, tai galite padaryti per „Valdymo skydą“ → „Programos“ → „Pašalinti programą“.  
-![Valdymo skydas](controlPanell.JPG)  
+![Valdymo skydas](./screenshots/controlPanell.JPG)  
 
 Programų sąraše radę programą, ją galite pašalinti paspaudę dešinįjį kompiuterio pelės klavišą ir pasirinkę „Pašalinti“.  
-![Pašalinti](delete.JPG)
+![Pašalinti](./screenshots/delete.JPG)
 
 
 
