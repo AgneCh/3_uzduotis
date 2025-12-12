@@ -57,7 +57,7 @@ Galutinė išvestis atodo taip:
 Įveskite pilną failo pavadinimą pvz.: Student1000.txt   
 ![input2](./screenshots/input2.JPG)  
 
-Programa atspausdina lentelę su duomenimis iš failo:  
+Pranešimas, kad duomenys nuskaityti sėkmingai:  
 ![output2](./screenshots/output2.JPG)  
   
 
