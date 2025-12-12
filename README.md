@@ -91,11 +91,8 @@ Sėkmingai surušiavus duomenis, programa praneša apie išvestus failus.
 ![categorize3](./screenshots/categorize3.JPG)
 
 Išvestis failuose:  
-***strugglers.txt***  
-![categorize4](./screenshots/categorize4.JPG)
-  
-***highAchievers.txt***  
-![categorize5](./screenshots/categorize5.png)  
+***strugglers.txt*** ir ***highAchievers.txt*** failus galite rasti "C:/Program files/VU/Vardenis-Pavardenis"  
+![categorize4](./screenshots/categorize4.png)  
 
 ## Baigti darbą
 Įveskite ***skaičių 6***, kad baigtumėte darbą.
