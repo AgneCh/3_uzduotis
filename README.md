@@ -3,7 +3,7 @@
 # Diegimo failo naudojimo instrukcija
 
 Paspaudus ant *Student_grading_setup.exe* failo, pasirinkite, kur išsaugoti programą. Rekomenduojama pasirinkti laukelyje nurodytą diegimo vietą.  
-![Diegimo vieta](destinationLocation.JPG)  
+![Diegimo vieta](./screenshots/destinationLocation.JPG)  
 
 Pasirinkite sukurti darbalaukio nuorodą į programą. Paspauskite „Next“.  
 ![Darbalaukio nuoroda](shortcut.JPG)  
